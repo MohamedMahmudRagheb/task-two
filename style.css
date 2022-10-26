@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.zzx{
+    height: 100vh;
+    background-image: url("blue_bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding: 50px 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links a{
+    margin: 0px 30px;
+    text-decoration: none;
+    color: blue;
+}
+header img{
+    width:140px;
+    height: 80px;
+    
+}
+button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.one{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.two{
+margin: 60px 0px 0px 0px;
+}
+.two h2{
+    margin-bottom: 20px;
+    font-weight:bold ;
+    font-size: 45px;
+    color: rgba(106, 105, 105, 0.87);
+}
+.two span{
+    color: blueviolet;
+}
+.two p{
+font-size: 20px;
+margin-bottom: 7px;
+color:rgb(119, 119, 119) ;
+}
+.three{
+    height: 450px;
+    width: 600px;
+    position: relative;
+}
+.image {
+    position: absolute;
+    bottom: -135px;
+}
+.image img{
+    height: 769px;
+}
+.imageww{
+    position: absolute;
+    bottom: 5px;
+    left: 200px;
+    top: -140px;
+}
+.imageww img{
+    height:500px ;
+}
+.imagezz{
+    position: absolute;
+    bottom:-100px;
+    left: 90px;
+}
+.imagezz img{
+    height: 300px;
+}
+.gool{
+    height: 110vh;
+}
+.gool h2{
+    text-align: center;
+    color: rgba(74, 74, 74, 0.893);
+}
+.gool p{
+    text-align: center;
+    margin: 5px;
+    color:rgba(95, 94, 94, 0.893) ;
+}
+.gol{
+    position: absolute;
+    left: 360px;
+    top: 790px;
+}
+.gol img{
+    height: 500px;
+}
+.gool0{
+    position: relative;
+}
+.gool0 img{
+    position: absolute;
+    top: -145px;
+    left: -450px;
+    height: 200px;
+    width: 1550px;
+}
+.gool1{
+    position: relative;
+}
+.style1{
+    position: absolute;
+    left: 170px;
+    top: 100px;
+}
+.gool2{
+    position:relative;
+}
+.style2{
+    position: absolute;
+    left:630px;
+    top: 240px;
+}
+.gool3{
+    position: relative;
+}
+.style3{
+    position: absolute;
+    left: 960px;
+    top: 520px;
+}
+.gool4{
+    position: relative;
+}
+.style4{
+    position: absolute;
+    left: 150px;
+    top: 500px;
+}
+.style4 img{
+    height: 290px;
+}
+.style4 p{
+    position: absolute;
+    bottom: 155px;
+    left: 75px;
+    color: white;
+    font-size: 15px;
+}
+.style4 h3{
+    position: absolute;
+    bottom: 110px;
+    left: 75px;
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+}
+.foure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+.mmr{
+    position: relative;
+}
+.mmr img{
+    position: absolute;
+    top: 180px;
+    left: -30px;
+}
+.mnr{
+    position: relative;
+}
+.mnr img{
+    position: absolute;
+    left: 20px;
+    top: -50px;
+}
+.mur{
+    position: relative;
+}
+.mur img{
+    position: absolute;
+    top: 190px;
+    left: 450px;
+}
+.data{
+    position: relative;
+}
+.type{
+    position: absolute;
+    top: 450px;
+    right:-120px ;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.type h2{
+    text-align: center;
+    margin: 20px 0px 25px;
+    color: rgba(74, 74, 74, 0.893);
+}
+.type p{
+    text-align: center;
+    margin: 3px 0px;
+    color:rgba(95, 94, 94, 0.893) ;
+}
+.footer{
+    position: relative;
+}
+.background{
+    position: absolute;
+    top: 400px;
+    right: 1300px;
+}
+.background img{
+    position: absolute;
+    left: -50px;
+    height: 750px;
+    width: 1540px;
+}
+.mod{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.cvv{
+    position: absolute;
+    top: 520px;
+    right: 40px;
+    overflow: hidden;
+}
+.cvd{
+    position: relative;
+    top: 720px;
+    right: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.stor{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.src{
+    margin-right: 20px;
+    background-color: beige;
+    width: 120px;
+    height: 43px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.src h3{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: rgb(60, 60, 60);
+}
+
+.photo{
+    margin: 10px;
+}
+.photo img{
+    margin: 0px 10px;
+}
+.icon2 a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
